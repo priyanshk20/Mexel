@@ -60,10 +60,12 @@ body{
     height: 6vh;
     background-color: rgb(230, 230, 230);
     display: flex;
+    align-items: center;
 }
 
 .menu-icons{
     padding: 0rem 0.70rem;
+    height: 100%;
     display: flex;
     align-items: center;
 }
@@ -72,6 +74,20 @@ body{
     background-color: lightgray;
     cursor: pointer;
 }
+
+.font-select{
+   width: 150px;
+}
+
+.selector{
+    height: 80%;
+    font-size: 18px;   
+}
+
+.selector option{
+    font-size: 18px;
+}
+
 
 .formula-bar{
     height: 6vh;

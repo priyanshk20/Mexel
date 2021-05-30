@@ -95,6 +95,32 @@ body{
 
 .data-container{
     height: 74vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.select-all{
+    height: 30px;
+    width: 30px;
+    border: 1px solid lightgray
+}
+
+.column-name-container{
+    width: calc(100vw - 30px);
+    height: 30px;
+    border: 1px solid lightgray
+}
+
+.row-name-container{
+    width: 30px;
+    height: calc(75vh - 30px);
+    border: 1px solid lightgray;
+}
+
+.input-cell-container{
+    width: calc(100vw - 30px);
+    height: calc(75vh - 30px);
+    border: 1px solid lightgray
 }
 
 .sheet-bar{

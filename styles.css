@@ -114,17 +114,19 @@ body{
 .row-name-container{
     width: 30px;
     height: calc(75vh - 30px);
-    border: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
 }
 
 .input-cell-container{
     width: calc(100vw - 30px);
     height: calc(75vh - 30px);
-    border: 1px solid lightgray
+    border: 1px solid lightgray;
+
 }
 
 .sheet-bar{
-    border-top: 2px solid lightgray;
     height: 4vh;
     display: flex;
     align-items: center;
@@ -134,7 +136,7 @@ body{
 }
 
 .nav-icons{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .nav-icons:hover{
@@ -161,7 +163,7 @@ transform: scale(1.2);
 
 .sheet-tab{
     border-bottom: 4px solid var(--primary-color);
-    padding: 0.1rem 0.70rem;
+    padding: 0.1rem 0.1rem;
     width: 80px;
     display: flex;
     justify-content: center;
@@ -175,5 +177,6 @@ transform: scale(1.2);
 
 .sheet-tab-container{
     border: 1px solid lightgray;
-    margin: 0rem 0.70rem;
+    margin: 0rem 0.40rem;
 }
+

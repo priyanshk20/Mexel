@@ -20,7 +20,6 @@ body{
     height: 5vh;
     background-color: var(--primary-color);
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     color: #fff;
@@ -30,11 +29,10 @@ body{
     height: 5vh;
     background-color: var(--primary-color);
     display: flex;
-    flex-direction: row;
 }
 
 .menu-item{
-    padding: 0rem 1rem;
+    padding: 0rem 10px;
     color: #fff;
     font-size: 18px;
     display: flex;
@@ -64,7 +62,7 @@ body{
 }
 
 .menu-icons{
-    padding: 0rem 0.70rem;
+    padding: 0rem 10px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -80,7 +78,7 @@ body{
 }
 
 .selector{
-    height: 80%;
+    height: 30px;
     font-size: 18px;   
 }
 
@@ -90,11 +88,11 @@ body{
 
 
 .formula-bar{
-    height: 6vh;
+    height: 5vh;
 }
 
 .data-container{
-    height: 74vh;
+    height: 75vh;
     display: flex;
     flex-wrap: wrap;
 }
@@ -108,22 +106,23 @@ body{
 .column-name-container{
     width: calc(100vw - 30px);
     height: 30px;
-    border: 1px solid lightgray
+    border: 1px solid lightgray;
+    display: flex;
+    overflow: hidden;
 }
 
 .row-name-container{
     width: 30px;
     height: calc(75vh - 30px);
-    border-top: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    border-left: 1px solid lightgray;
+    border: 1px solid lightgray;
+    overflow: hidden;
 }
 
 .input-cell-container{
     width: calc(100vw - 30px);
     height: calc(75vh - 30px);
     border: 1px solid lightgray;
-
+    overflow: scroll;
 }
 
 .sheet-bar{
@@ -132,7 +131,7 @@ body{
     align-items: center;
 }
 .scroller{
-    width: 80px;
+    width: 70px;
 }
 
 .nav-icons{
@@ -146,10 +145,8 @@ body{
 
 .icon-add{
     color: var(--primary-color);
-    padding: 0rem 0.5rem;
-    margin: 0rem 0.70rem;
-    width: 30px;
-    height: 100%;
+    margin: 0rem 10px;
+    width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +160,8 @@ transform: scale(1.2);
 
 .sheet-tab{
     border-bottom: 4px solid var(--primary-color);
-    padding: 0.1rem 0.1rem;
+    border-right: 1px solid lightgray;
+    padding: 0px 10px;
     width: 80px;
     display: flex;
     justify-content: center;
@@ -177,6 +175,35 @@ transform: scale(1.2);
 
 .sheet-tab-container{
     border: 1px solid lightgray;
-    margin: 0rem 0.40rem;
+    width: calc(100vw - 110px);
+    margin: 0px 10px;
 }
 
+.column-name{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid lightgray;
+    font-weight: bold;
+}
+
+.row-name{
+    height: 25px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.cell-row{
+    display: flex;
+}
+.input-cell{
+    width: 100px;
+    height: 25px;
+    border-right:1px solid lightgray;
+    border-bottom:1px solid lightgray;
+
+}

@@ -180,7 +180,7 @@ transform: scale(1.2);
 }
 
 .column-name{
-    width: 100px;
+   min-width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,7 +189,7 @@ transform: scale(1.2);
 }
 
 .row-name{
-    height: 25px;
+    min-height: 25px;
     border-bottom: 1px solid lightgray;
     display: flex;
     align-items: center;
